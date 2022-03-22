@@ -1,10 +1,18 @@
 import Link from "next/link"
+import Head from "next/head"
 
 export default function Bluepant() {
   return (
-    <div>  
-    <h1>Blue Pant Page</h1>
-    <Link href={'../../../'}>Voltar</Link>
+    <>
+      <Head>
+        <title>Blue Pants page</title>
+      </Head>
+      <div>  
+        <h1>Blue Pant Page</h1>
+        <Link href={'../../../'}>Voltar</Link>
     </div>  
+
+    </>
+
   )
 }
