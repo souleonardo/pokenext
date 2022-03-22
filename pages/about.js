@@ -1,16 +1,11 @@
-import Link from "next/link";
-
+import Link from "next/link"
+import styles from '../styles/Home.module.css'
 
 export default function about() {
   return (
-    <div>  
-    <h1>About page</h1>
-    <Link href={'./'}>Voltar</Link>
-    </div>
-
-    
+    <div className={styles.container}>  
+      <h1>About page</h1>
+      <Link href={'./'}>Voltar</Link>
+    </div>  
   )
-  
-
-
 }
